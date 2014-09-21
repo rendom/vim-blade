@@ -1,6 +1,6 @@
 /* Regular PHP */
 echo('foo')         // shouldn't be highlighted
-<?php if ($bar == $foo) return false; ?>
+<?php if ($bar->foo == $foo) return false; ?>
 
 /* Regular HTML */
 <html>

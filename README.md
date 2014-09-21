@@ -11,7 +11,11 @@ Using pathogen
     cd ~/.vim/bundle
     git clone git://github.com/xsbeats/vim-blade.git
 
+[vundle](https://github.com/gmarik/Vundle.vim).
+
+    Plugin 'xsbeats/vim-blade'
+
 Todo
 ----
 
-Indentation
+Indentation (currently nonexistent)
