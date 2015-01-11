@@ -12,6 +12,8 @@ endif
 runtime! syntax/php.vim
 silent! unlet b:current_syntax
 
+runtime! indent/html.vim
+
 " Echos
 syn region bladeUnescapedEcho matchgroup=bladeEchoDelim start=/@\@<!\s*{!!/ end=/!!}\s*/ oneline contains=@phpClTop containedin=ALLBUT,bladeComment
 syn region bladeEscapedEcho matchgroup=bladeEchoDelim start=/@\@<!\s*{{{\@!/ end=/}}\s*/ oneline contains=@phpClTop containedin=ALLBUT,bladeComment
